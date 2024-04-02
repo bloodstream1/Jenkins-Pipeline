@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -384,7 +384,7 @@
       },
       "smswebapp/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/smswebapp.dll": {}
         },
@@ -995,7 +995,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1005,32 +1005,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anushree Mandal\\.nuget\\packages\\": {}
+    "C:\\Users\\aakashtyagi03\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Takneekigyanguru\\ASP.Net Code\\Project6\\smswebapp.tests\\smswebapp.tests.csproj",
+      "projectUniqueName": "C:\\Users\\aakashtyagi03\\OneDrive - Nagarro\\Desktop\\Jenkins Pipeline\\smswebapp\\smswebapp.tests\\smswebapp.tests.csproj",
       "projectName": "smswebapp.tests",
-      "projectPath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project6\\smswebapp.tests\\smswebapp.tests.csproj",
-      "packagesPath": "C:\\Users\\Anushree Mandal\\.nuget\\packages\\",
-      "outputPath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project6\\smswebapp.tests\\obj\\",
+      "projectPath": "C:\\Users\\aakashtyagi03\\OneDrive - Nagarro\\Desktop\\Jenkins Pipeline\\smswebapp\\smswebapp.tests\\smswebapp.tests.csproj",
+      "packagesPath": "C:\\Users\\aakashtyagi03\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aakashtyagi03\\OneDrive - Nagarro\\Desktop\\Jenkins Pipeline\\smswebapp\\smswebapp.tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Anushree Mandal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aakashtyagi03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Takneekigyanguru\\ASP.Net Code\\Project6\\smswebapp\\smswebapp.csproj": {
-              "projectPath": "F:\\Takneekigyanguru\\ASP.Net Code\\Project6\\smswebapp\\smswebapp.csproj"
+            "C:\\Users\\aakashtyagi03\\OneDrive - Nagarro\\Desktop\\Jenkins Pipeline\\smswebapp\\smswebapp\\smswebapp.csproj": {
+              "projectPath": "C:\\Users\\aakashtyagi03\\OneDrive - Nagarro\\Desktop\\Jenkins Pipeline\\smswebapp\\smswebapp\\smswebapp.csproj"
             }
           }
         }
@@ -1042,8 +1049,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -1082,7 +1089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
